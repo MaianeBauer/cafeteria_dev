@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--shrink-to-fit=no" serve para que o conteuo do site não se exprema para caber-->
+    <link rel="stylesheet" href="./style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Debugger</title>
+  </head>
+
+  <body>
+    <header class="menu">
+      <!--header pq vai ir de uma ponta a outra-->
+      <div class="menu-container">
+        <a class="menu-logo" href="#">
+          <img
+            src="./assets/logo.png"
+            width="100px"
+            alt="imagem de cafes ao fundo"
+          />
+        </a>
+        <nav class="menu-nav">
+          <ul>
+            <li>
+              <a href="#">Sobre</a>
+              <a href="#">Produtos</a>
+              <a href="#">Portfólio</a>
+              <a href="#">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--Fim do menu-->
+    </header>
+    <main class="intro">
+      <h1>Debugger Cafetería</h1>
+      <p>Depure sua mente e eleve sua criatividade</p>
+      <br />
+      <br />
+      <p>Direto das Fazendas do Rio Grande do Sul</p>
+    </main>
+    <!--inicio da seção com duas imagens uma ao lado da outra -->
+    <section class="sobre">
+      <h2>Uma mistura de</h2>
+      <div class="sobre-container">
+        <!--div que vai segurar as duas img dentro dela-->
+        <div class="sobre-item">
+          <img src="./assets/cafe1.jpg" alt="xicara de cafe" />
+          <h3>Amor</h3>
+        </div>
+        <div class="sobre-item">
+          <img src="./assets/cafe2.jpg" alt="xicara de cafe" />
+          <h3>Perfeição</h3>
+        </div>
+      </div>
+      <p>
+        O café é o combustível que impulsiona a criatividade e a produtividade.
+        Seja em uma manhã agitada ou em uma tarde de trabalho, uma xícara de
+        café pode ser a inspiração para novas ideias e projetos. Seu aroma
+        envolvente e sabor estimulante criam o ambiente perfeito para a
+        concentração e o foco.
+      </p>
+    </section>
+    <!--fim-->
+    <section class="produtos">
+      <!--com 3 itens diferentes e um botão -->
+      <div class="produtos-container">
+        <!--container que vai segurar as 3 divs-->
+        <div class="produtos-item">
+          <!--1 elemento-->
+          <h2 class="produtos1">Stack Overflow</h2>
+          <p>
+            Stack Overflow Coffee: Uma referência ao famoso fórum de perguntas e
+            respostas para programadores.
+          </p>
+        </div>
+        <div class="produtos-item">
+          <!--2 elemento-->
+          <h2 class="produto2">Bit</h2>
+          <p>Café do tamanho de um Bit, perfeito para um gole rápido</p>
+        </div>
+        <div class="produtos-item">
+          <!--1 elemento-->
+          <h2 class="produto3">Undefined</h2>
+          <p>Quando o café está tão bom que parece não ter fim.</p>
+        </div>
+      </div>
+      <div class="saiba-mais">
+        <a class="produtos-btn" href="#">Saiba mais</a>
+      </div>
+    </section>
+    <!--fim dos 3 elementos-->
+    <section class="locais">
+      <!--inicio das imagens do estabelecimento-->
+      <div class="locais-itens">
+        <img src="./assets/cafeteria1.jpg" alt="unidade RS" />
+        <div>
+          <!--div com as info dessa unidade-->
+          <h2>Rio Grande do Sul</h2>
+          <p>
+            Uma cafeteria aconchegante e moderna, com decoração inspirada em
+            circuitos eletrônicos e códigos de programação. Oferece diversas
+            opções de cafés especiais, além de lanches leves e um ambiente
+            propício para trabalho remoto ou reuniões de projetos. A casa também
+            organiza workshops e palestras sobre tecnologia, conectando a
+            comunidade de desenvolvedores da região.
+          </p>
+          <a href="#">Ver Mapa</a>
+        </div>
+      </div>
+      <div class="locais-itens">
+        <img src="./assets/cafeteria2.jpg" alt="unidade RS" />
+        <div>
+          <!--div com as info dessa unidade-->
+          <h2>Santa Catarina</h2>
+          <p>
+            Um espaço industrial reformado, com mesas comunitárias e sofás
+            confortáveis. A cafeteria oferece um cardápio variado, com opções
+            veganas e sem glúten, além de um menu de bebidas quentes e frias com
+            nomes inspirados em linguagens de programação. A Fábrica de Ideias
+            também conta com um espaço para eventos, onde são realizadas
+            hackathons e meetups
+          </p>
+          <a href="#">Ver Mapa</a>
+        </div>
+      </div>
+      <div class="locais-itens">
+        <img src="./assets/cafeteria3.jpg" alt="unidade RS" />
+        <div>
+          <!--div com as info dessa unidade-->
+          <h2>São Paulo</h2>
+          <p>
+            Um terminal é o ponto final de uma linha de comunicação, onde os
+            dados são recebidos e enviados. A ideia é que a cafeteria seja o
+            ponto de encontro para os desenvolvedores, onde eles podem
+            "conectar-se" e trocar ideias.
+          </p>
+          <a href="#">Ver Mapa</a>
+        </div>
+      </div>
+    </section>
+    <!--fim das unidades-->
+    <section class="assine">
+      <!--inicio Newsletter-->
+      <div class="assine-container">
+        <!--a que contem o container que vai ter os outros dentro-->
+        <div class="assine-info">
+          <!--div com o escrito-->
+          <h2>Assine nossa Newsletter</h2>
+          <p>Promoções e eventos mensais</p>
+        </div>
+        <form>
+          <!-- <labe>Email</label> -->
+          <input type="text" placeholder="Digite seu e-mail" />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          Este é um modelo de Landing Page desenvolvido por <span>Maiane Dhienis © 2024 </span> </p>
+          <br>
+          <div class="icons">
+            <a href="https://www.linkedin.com/in/maiane-dhienis-897b28189/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/MaianeBauer" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://www.instagram.com/maianebauer/" target="_blank"><i class='bx bxl-github' ></i></a>
+            <a href="https://api.whatsapp.com/send?phone=555499931905&text=Ol%C3%A1,%20vim%20pelo%20seu%20Decodificador%20de%20texto"
+              target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+          </div>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
