@@ -428,7 +428,7 @@ h2.produto3::before {
 /*mobile*/
 @media (max-width: 739px) {
   .menu {
-    height: 60vh;
+    height: 25vh;
     text-align: center;
   }
 
@@ -464,12 +464,21 @@ h2.produto3::before {
   }
 
   .locais {
-    width: 300px;
+    width: 200px;
+      float: left;
+    flex-direction: column-reverse;
   }
 
-  .locais-item img {
-    width: 300px;
-    margin: 0px;
+  .locais-itens img {
+    width: 450px;
+    margin: 30px;
+  }
+  
+  .locais-itens h2 {
+    font-size: 1.7rem;
+  }
+  .locais-itens p {
+    font-size: 1rem;
   }
 
   .assine-container {
